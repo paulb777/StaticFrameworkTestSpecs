@@ -29,8 +29,13 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.static_framework = true
 
   s.source_files = 'MyLib/Classes/**/*'
+
+  s.test_spec 'unit' do |unit_tests|
+    unit_tests.source_files = "Example/Tests/Tests.m"
+  end
   
   # s.resource_bundles = {
   #   'MyLib' => ['MyLib/Assets/*.png']

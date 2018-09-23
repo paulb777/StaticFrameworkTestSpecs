@@ -6,6 +6,8 @@
 //  Copyright (c) 2018 Paul Beusterien. All rights reserved.
 //
 
+#import "Object1.h"
+
 @import XCTest;
 
 @interface Tests : XCTestCase
@@ -28,7 +30,10 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+  [Object1 hello];
+  int x = [Object1 plusOne:7];
+  XCTAssertEqualObjects(@(x), @(8));
+
 }
 
 @end

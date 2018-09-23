@@ -1,9 +1,6 @@
 # MyLib
 
-[![CI Status](https://img.shields.io/travis/Paul Beusterien/MyLib.svg?style=flat)](https://travis-ci.org/Paul Beusterien/MyLib)
-[![Version](https://img.shields.io/cocoapods/v/MyLib.svg?style=flat)](https://cocoapods.org/pods/MyLib)
-[![License](https://img.shields.io/cocoapods/l/MyLib.svg?style=flat)](https://cocoapods.org/pods/MyLib)
-[![Platform](https://img.shields.io/cocoapods/p/MyLib.svg?style=flat)](https://cocoapods.org/pods/MyLib)
+Demonstrate a static framework CocoaPod with a testspec
 
 ## Example
 
@@ -22,8 +19,8 @@ pod 'MyLib'
 
 ## Author
 
-Paul Beusterien, paulbeusterien@google.com
+Paul Beusterien
 
 ## License
 
-MyLib is available under the MIT license. See the LICENSE file for more info.
+MyLib is available under the Apache v2.0 license. See the LICENSE file for more info.
