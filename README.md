@@ -1,6 +1,6 @@
 # MyLib
 
-Demonstrate a static framework CocoaPod with a testspec
+Demonstrate a static framework CocoaPod with a testspec. Requires CocoaPods 1.6.x
 
 ## Example
 
